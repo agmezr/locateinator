@@ -11,7 +11,7 @@
         "longitude",
         "latitude"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage":"https://github.com/agmezr/locateinator",
     "docs": "https://github.com/agmezr/locateinator/blob/master/README.md",
     "download": "https://github.com/jquery-boilerplate/boilerplate/archive/master.zip",
