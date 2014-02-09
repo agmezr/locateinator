@@ -1,0 +1,37 @@
+{
+  "name": "locateinator",
+  "title": "Admire the locateinator!",
+  "description": "A simple yet useful plugin to locate places via address or position in a google map",
+  "keywords": [
+    "jquery",
+    "google maps",
+    "address",
+    "plugin",
+    "position",
+    "longitude",
+    "latitude",
+  ],
+  "version": "1.0",
+  "author": {
+    "name": "Alejandro Gomez",
+    "email":"alexgomez2202@gmail.com",
+    "url": "https://github.com/agmezr",
+  },
+  "maintainers": [
+    {
+    "name": "Alejandro Gomez",
+    "email":"alexgomez2202@gmail.com",
+    "url": "https://github.com/agmezr",
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.4",
+    "google maps api": ">=v2",
+  }
+}
