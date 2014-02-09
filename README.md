@@ -1,4 +1,4 @@
-locateinator
+Locateinator
 ============
 
-The repository for the locateinator
+The simple yet useful plugin to show a lot of places in a map
