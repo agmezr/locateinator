@@ -1,6 +1,6 @@
 {
     "name": "locateinator",
-    "title": "Admire the locateinator!",
+    "title": "Admire the locate-inator!",
     "description": "A simple yet useful plugin to locate places via address or position in a google map",
     "keywords": [
         "jquery",
@@ -11,7 +11,7 @@
         "longitude",
         "latitude"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage":"https://github.com/agmezr/locateinator",
     "docs": "https://github.com/agmezr/locateinator/blob/master/README.md",
     "download": "https://github.com/jquery-boilerplate/boilerplate/archive/master.zip",
