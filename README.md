@@ -38,7 +38,7 @@ To use the API version 3, simply add:
 
 There! You are ready to use this plugin.
 
-Ok. I think I'm ready. What's next?
+<h3>I think I'm ready. What's next? </h3>
 
 First you need a victim >=), so let’s take this div conveniently named test
 
