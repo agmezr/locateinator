@@ -7,7 +7,7 @@ The simple yet useful plugin to show lots of places in short time
 
 <b> 1.0.5 </b>
 
-New onComplete option, so you can show a loading gif or a dance monkey while you wait.
+New onComplete option, so you can show a loading gif or a dancing monkey while you wait.
 
 <b> 1.0.4 </b>
 
