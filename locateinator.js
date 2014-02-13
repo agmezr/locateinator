@@ -1,6 +1,6 @@
 /*
 * Name: locateinator
-* Version: 1.0.4
+* Version: 1.0.5
 * Author: Alejandro Gómez
 * Description: Makes a google map to show the location of variuos places by a given address or a position. Also makes a simple html select tag that move the map to their position.
 *
@@ -40,6 +40,7 @@
                 'height': '400px',
                 'float': 'left'
             },
+            onComplete: function(){},
             showController: true
         };
         settings = $.extend(true, {}, defaults, options);
@@ -59,6 +60,7 @@
                 $("#map-controller-list").css(settings.mapListCss);
             }
             $("#" + map_canvas).css(settings.mapCanvasCss);
+            settings.onComplete.call(this);
         });
     };
 
