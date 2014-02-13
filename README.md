@@ -3,6 +3,29 @@ Locateinator
 
 The simple yet useful plugin to show lots of places in short time
 
+<h2>Change log <h2>
+
+<b> 1.0.5 </b>
+
+New onComplete option, so you can show a loading gif or a dance monkey while you wait.
+
+<b> 1.0.4 </b>
+
+Some minor bugs fixed and a new min version
+
+<b> 1.0.3 </b>
+
+Just testing...again
+
+<b> 1.0.2 </b>
+
+Just testing
+
+<b> 1.0.1 </b>
+
+First stable version
+
+
 <h1>Introduction</h1>
 	
 <h3>What's this and why do I need it?</h3>
@@ -171,5 +194,10 @@ Excellent question. Here is a list of all the options and a brief description
 |showController | Indicates if the map-controller shows, default: true | Boolean
 |multipleInfo | Indicates if multiples infoWindow can remain open at the same time | Boolean
 |mapOptions | The options for creating the google map, example :center, zoom, etc. For more information click here | Object literal
+|onComplete | A function to be called after the plugin finish his job* | function |
+
+*Not really tested...
+
+
 
 
