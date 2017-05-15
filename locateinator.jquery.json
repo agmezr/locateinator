@@ -35,7 +35,7 @@
         }
     ],
     "dependencies": {
-        "jquery": ">=1.4",
-        "googleMapsApi": ">=v2"
+        "jquery": ">= 1.4",
+        "googleMapsApi": ">= v2"
     }
 }

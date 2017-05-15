@@ -3,7 +3,11 @@ Locateinator
 
 The simple yet useful plugin to show lots of places in short time
 
-<h2>Change log <h2>
+<h2>Change log </h2>
+
+<b> 1.0.6 </b>
+
+Fixed a bug when clicking on the locations
 
 <b> 1.0.5 </b>
 
@@ -27,7 +31,7 @@ First stable version
 
 
 <h1>Introduction</h1>
-	
+
 <h3>What's this and why do I need it?</h3>
 
 This is a jquery plugin focused on developers that have a lot of places and want to show them in a map. The locateinator is simple to use and completely customizable so it can adapt to your needs.
@@ -47,7 +51,7 @@ Yep, but for legal reasons I'm going to deny all
 First you need jquery (obviously). To do this remember to download the latest version (although It's tested with versions >= 1.7). If you already have it simply add something like this:
 
 ```html
-<script type="text/javascript" src="your_path_to_jquery/jquery-1.7.1.min.js"></script> 
+<script type="text/javascript" src="your_path_to_jquery/jquery-1.7.1.min.js"></script>
 ```
 
 Second you need to include the Google maps API. Here you can see an <a href="https://developers.google.com/maps/?hl=en"> example </a>
@@ -114,7 +118,7 @@ Calm down buddy, to do this simply initialize the locateinator with the location
     },
     //more and more locations
   ];
-  
+
   $("#test").locateinator({locations:myLocations});
 
 ```
@@ -187,7 +191,7 @@ Excellent question. Here is a list of all the options and a brief description
 
 |Option   |Description| Type  |
 |---------|---------| --------|
-|locations | The array of objects to display | Array 
+|locations | The array of objects to display | Array
 |mapCanvasCss | The css of the div displaying the map| Object literal
 |mapControllerCss | The css of the div displaying the list | Object literal
 |mapListCss | The css of the list itself, don't confuse it with the mapControllerCss| Object literal
@@ -197,7 +201,3 @@ Excellent question. Here is a list of all the options and a brief description
 |onComplete | A function to be called after the plugin finish his job* | function |
 
 *Not really tested...
-
-
-
-

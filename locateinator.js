@@ -137,7 +137,7 @@
             $("#map-controller-list option:selected").each(function(){
                 var index = $(this).val();          
                 var pos = markers[index].position;
-                var center = new google.maps.LatLng(pos.d,pos.e);
+                var center = new google.maps.LatLng(pos.lat(),pos.lng());
                 map.panTo(center);
                 infoWindows[index].open(map,markers[index]);
                 if (previous>=0)
